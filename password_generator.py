@@ -12,7 +12,7 @@ while True:
         password_length = int(input('Enter password length: '))
         break
     except ValueError:
-        print('Enter an integer number')
+        print('Error: Enter an integer number. Try again')
 
     
 password = ''
