@@ -7,8 +7,14 @@ print('\n' + stars + '\n' + banner_message + '\n' + stars + '\n')
 
 letters = string.ascii_letters 
 
-password_length = int(input('Enter password length: '))
+while True:
+    try:
+        password_length = int(input('Enter password length: '))
+        break
+    except ValueError:
+        print('Enter an integer number')
 
+    
 password = ''
 
 for letter in range(password_length):
