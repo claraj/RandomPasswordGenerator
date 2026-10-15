@@ -23,4 +23,5 @@ for letter in range(password_length):
 
 print('Your password is: ' + password)
 
-print('Thank you for using the progam')
+print()
+print('Thank you for using the program')
