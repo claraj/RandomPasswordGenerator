@@ -1,6 +1,10 @@
 import string
 import random 
 
+banner_message = 'AWESOME Password Generator PROGRAM'
+stars = '*' * len(banner_message)
+print('\n' + stars + '\n' + banner_message + '\n' + stars + '\n')
+
 letters = string.ascii_letters 
 
 password_length = int(input('Enter password length: '))
