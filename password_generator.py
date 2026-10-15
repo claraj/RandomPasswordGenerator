@@ -22,3 +22,5 @@ for letter in range(password_length):
     password = password + random_letter
 
 print('Your password is: ' + password)
+
+print('Thank you for using the progam')
